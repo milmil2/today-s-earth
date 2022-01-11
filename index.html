@@ -80,7 +80,7 @@ $("#search").on("click", function(){
 
   // 星検索
   const date = $("#date").val();
-  const qurl = "https://api.nasa.gov/planetary/apod?api_key=yfG5dEixL6blLGAVfo11l3DnDK1e0nbpE28F9Bod&date=" + date;
+  const qurl = "https://api.nasa.gov/planetary/apod?api_key&date=" + date;
   
   $.get(qurl, function(data){
     const image = data.url;
