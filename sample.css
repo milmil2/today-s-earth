@@ -1,0 +1,46 @@
+body{
+    background-image: url(./images/milkyway.jpg);
+    background-size: cover;
+    background-color: rgba(255, 255, 255, 0.15);
+    background-blend-mode: lighten;
+    color: white;
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+    font-size:25px;
+    
+}
+
+.title{
+    font-size: 70px;
+    margin: 10px;
+    
+}
+
+#search {
+    color: rgb(214, 168, 212);
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Amatic SC', cursive;
+    line-height: 35px;
+    width: 120px;
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+    outline: 1px solid;
+    outline-color: rgba(255, 255, 255, 0.5);
+    outline-offset: 0px;
+    text-shadow: none;
+    transition: all 1.2s cubic-bezier(0.2, 1, 0.2, 1);
+  }
+  
+  #search:hover {
+    border-color: #FFF;
+    box-shadow: inset 0 0 20px rgba(255, 255, 255, 0.5), 0 0 20px rgba(204, 34, 238, 0.2);
+    outline-color: transparent;
+    outline-offset: 12px;
+    text-shadow: 2px 2px 3px rgb(248, 252, 19);
+  }
+
+
